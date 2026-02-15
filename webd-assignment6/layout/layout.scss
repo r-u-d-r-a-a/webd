@@ -1,0 +1,57 @@
+$myBlue:#0057D9;
+
+$prefix: pf;
+
+:root {
+  --#{$prefix}-primary-color: #000000; 
+}
+
+%img-format
+{
+  height: 300px;
+  width: 300px;
+}
+
+@mixin gridlayout($col,$var)
+{
+  grid-template-columns: repeat($col,#{$var});
+}
+
+.grid-container {
+    display: grid;
+    //grid-template-columns: repeat(1,1fr) ;
+    @include gridlayout(1,"1fr");
+    gap: 10px;
+    padding: 10px;
+    div{
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+  }
+  
+  .grid-container-2 {
+    display: grid;
+    //grid-template-columns: repeat(2,0fr) ;
+    @include gridlayout(2,"0fr");
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    div{
+      justify-content: center;
+      text-align: center;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+      //background-color: $myBlue;
+      background-color: var(--#{$prefix}-primary-color);
+      display: flex;
+      flex-direction: column;
+    }
+    img
+        {
+            @extend %img-format;
+        }
+  }
+  
+ 

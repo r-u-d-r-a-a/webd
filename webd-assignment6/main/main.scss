@@ -1,0 +1,62 @@
+$grayColour:gray;
+
+@function tex-margin($margin)
+{
+    @return $margin;
+}
+
+.item2
+{
+    h1{
+        text-align: center;
+        color: #0057D9;
+        font-weight: bold;
+        margin: 30px;
+    }
+
+    text{
+        margin: tex-margin(30px);
+        font-size: 18px;
+        color: $grayColour;
+        width: 10%;
+    }
+}
+
+.mustsee
+{
+    background-color: #F0F6FF;
+
+    h1{
+        color: black;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    
+   
+    div {
+        margin: 10px;
+        padding: 20px;
+        background-color: #0057D9;
+        
+    
+        img
+        {
+            height: 300px;
+            width: 300px;
+        }
+
+        text{
+            color: white;
+
+        }
+ 
+    }
+
+}

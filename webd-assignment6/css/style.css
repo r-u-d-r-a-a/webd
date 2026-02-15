@@ -1,0 +1,112 @@
+.header {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+}
+.header text {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 1%;
+}
+
+.grid-container-2 img {
+  height: 300px;
+  width: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+.grid-container div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+.grid-container-2 div {
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: #0057D9;
+  display: flex;
+  flex-direction: column;
+}
+.item2 h1 {
+  text-align: center;
+  color: #0057D9;
+  font-weight: bold;
+  margin: 30px;
+}
+.item2 text {
+  margin: 30px;
+  font-size: 18px;
+  color: gray;
+  width: 10%;
+}
+
+.mustsee {
+  background-color: #F0F6FF;
+}
+.mustsee h1 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.flex-container div {
+  margin: 10px;
+  padding: 20px;
+  background-color: #0057D9;
+}
+.flex-container div img {
+  height: 300px;
+  width: 300px;
+}
+.flex-container div text {
+  color: white;
+}
+
+.item3 {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.item3 text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  height: 100vh;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

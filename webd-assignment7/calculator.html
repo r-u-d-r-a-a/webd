@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <h2 id="welcome" class="mt-5" style="text-align: center;"></h2>
+    
+    <div class="container  mt-1 p-2 cont shadow-lg mb-3">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+            <div class="mb-2 mt-5">
+                <label for="number1" class="form-label"><b>Number 1</b></label>
+                <input type="text" class="number1 form-control" id="number1"></input>
+              </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+            <div id="error_number1" style=" display: none; color: red">
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+            <div class="mb-2 mt-5">
+                <label for="number2" class="form-label"><b>Number 2</b></label>
+                <input type="text" class="number2 form-control"  id="number2"></input>
+              </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+            <div id="error_number2" style=" display: none; color: red">
+        </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+            <div class="mb-2 mt-5">
+                <h4></h4>
+              </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3 mb-2"><button class="btn btn-primary calc" id="add">+</button></div>
+        <div class="col-md-2"><button class="btn btn-primary calc" id="subtract">-</button></div>
+        
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-3"></div>
+        <div class="col-md-3 mb-2"><button class="btn btn-primary calc" id="multiply">*</button></div>
+        <div class="col-md-2"><button class="btn btn-primary calc" id="divide">/</button></div>
+    </div>
+
+
+</div>
+    
+</body>
+</html>

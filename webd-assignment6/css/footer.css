@@ -1,0 +1,11 @@
+.item3 {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.item3 text {
+  font-size: 20px;
+  font-weight: bold;
+}/*# sourceMappingURL=footer.css.map */

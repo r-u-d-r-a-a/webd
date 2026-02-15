@@ -1,0 +1,20 @@
+.header {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+}
+.header text {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 1%;
+}/*# sourceMappingURL=header.css.map */
